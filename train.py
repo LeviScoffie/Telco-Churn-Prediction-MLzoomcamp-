@@ -126,7 +126,7 @@ print('validation results:')
 print("C=%s %.3f +- %.3f"%(C, np.mean(scores),np.std(scores))) 
 
 
-# Training the final model
+
 
 print("Training the final model")
 dv, model=train(df_full_train,df_full_train.churn.values, C=1.0)
