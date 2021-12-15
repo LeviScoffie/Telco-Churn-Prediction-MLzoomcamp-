@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+<<<<<<< HEAD
 runipy = "*"
 gunicorn = "*"
 numpy = "*"
@@ -12,6 +13,12 @@ flask = "*"
 
 
 
+=======
+numpy = "*"
+scikit-learn = "*"
+flask = "*"
+gunicorn = "*"
+>>>>>>> dd2971964e1fbd15afdc0e86eef32d3a7d4ad975
 
 [dev-packages]
 
