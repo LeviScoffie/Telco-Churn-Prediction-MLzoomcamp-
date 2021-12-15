@@ -10,6 +10,9 @@ numpy = "*"
 scikit-learn = "*"
 flask = "*"
 
+
+
+
 [dev-packages]
 
 [requires]
